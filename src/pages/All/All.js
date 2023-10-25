@@ -51,12 +51,6 @@ function All() {
                 <div className="field">
                   <div className="select">
                     <select ref={currentSelectedCategory}>
-                      {/* {Object.entries(AppConstant.category).forEach(
-                      ([key, value]) => {
-                        console.log(`${key} ${value}`);
-                        return <option>{value}</option>;
-                      }
-                    )} */}
                       <option>all</option>
                       <option>category-1</option>
                       <option>category-2</option>

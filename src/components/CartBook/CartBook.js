@@ -11,7 +11,6 @@ function CartBook(props) {
 
     const fetchData = async () => {
       const bookItem = await getBook(props.item.bookId);
-      console.log({ bookItem });
       setBook(bookItem);
     };
 

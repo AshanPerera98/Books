@@ -13,7 +13,6 @@ function Cart() {
   useEffect(() => {
     const fetchData = async () => {
       const cartList = await getBookCart();
-      console.log({ cartList });
       setCart(cartList);
     };
 
