@@ -1,0 +1,14 @@
+.cart-book {
+  width: 1000px;
+  align-items: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.qty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

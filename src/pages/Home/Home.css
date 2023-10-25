@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 50px;
+  column-gap: 50px;
+  padding: 50px;
+}
+
+.progress {
+  max-width: 1000px;
+}
